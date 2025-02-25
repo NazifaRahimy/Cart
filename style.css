@@ -100,10 +100,14 @@ section .info p{
 .footer {
     background: #fff;
     margin 0 auto;
-
+    transition: 0.6s
 }
 
 .footer h1 {
     text-decoration: none;
     padding: 15px 0;
+}
+
+.footer:hover {
+    background: #eeeeee;
 }
